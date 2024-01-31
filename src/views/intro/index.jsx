@@ -15,8 +15,8 @@ const Intro=()=>{
             <Navbar/>
             <div className={styled.boxContainer}>
                 <div className={styled.box1}>
-                    <p className={styled.heading}>We’re here to Increase your Productivity</p>
-                    <p className={styled.text}>Let's make your work more organize and easily using the Taskio Dashboard with many of the latest featuresin managing work every day.</p>
+                    <p className={styled.heading}>We&apos;re here to Increase your Productivity</p>
+                    <p className={styled.text}>Let&apos;s make your work more organize and easily using the Taskio Dashboard with many of the latest featuresin managing work every day.</p>
                     <div className={styled.btn}>
                         <span className={styled.free}>Try Free Trail</span>
                         <div className={styled.demo}>
@@ -44,7 +44,7 @@ const Intro=()=>{
                     <div className={styled.send}>
                     <div>
                         <p>Enter Amount</p>
-                        <p>$450..0</p>
+                        <p>$450.0</p>
                     </div>
                         <button>Send</button>
                     </div>
