@@ -47,7 +47,7 @@ const Feature=()=>{
                     </div>
                 </div>
                 <div className={styled.imageContainer}>
-                    <Image src={image4}/>
+                    <Image src={image4} alt="Error"/>
                     <div className={styled.expert}>
                         <Image src={image5} alt="Error"/>
                         <div>
