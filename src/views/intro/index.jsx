@@ -27,7 +27,7 @@ const Intro=()=>{
                 </div>
                 <div className={styled.box2}>
                     <Image src={image1} alt="Error"/>
-                    <Image src={image2} alt="Error" style={{width:"146px",height:"188px",position:"absolute",top:"300px",right:"10px"}}/>
+                    <Image src={image2} alt="Error" style={{width:"146px",height:"188px",position:"absolute",top:"300px",right:"10px"}} className={styled.image2}/>
                     <div className={styled.dollar}>
                         <p>Total Income</p>
                         <div className={styled.graph}>

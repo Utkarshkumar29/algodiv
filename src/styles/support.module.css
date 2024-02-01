@@ -14,30 +14,41 @@
 .box1{
     flex: 1;
     padding: 20px;
+
+    @media (max-width:426px){
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 .box1Heading{
     font-size: 50px;
     font-weight: 600;
-    line-height: 61px;
-    letter-spacing: 0em;
     text-align: left;
 
     @media (max-width:755px) {
         text-align: center;
+    }
+
+    @media (max-width:426px){
+        font-size: 30px;
     }
 }
 
 .description{
     font-size: 16px;
     font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0em;
     text-align: left;
     color: gray;
 
     @media (max-width:755px) {
         text-align: center;
+    }
+
+    @media (max-width:426px){
+        font-size: 11px;
     }
 }
 
@@ -87,23 +98,31 @@
 .features{
     display: flex;
     padding-bottom: 20px;
+
+    @media (max-width:426px){
+        gap: 10px;
+    }
 }
 
 .featHeading{
     font-size: 28px;
     font-weight: 700;
-    line-height: 34px;
-    letter-spacing: 0em;
     text-align: left;    
+
+    @media (max-width:426px){
+        font-size: 20px;
+    }
 }
 
 .featDescription{
     font-size: 18px;
     font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0em;
     text-align: left;
     color: gray;
+
+    @media (max-width:426px){
+        font-size: 12px;
+    }
 }
 
 .image{

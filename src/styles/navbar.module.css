@@ -55,9 +55,11 @@
     display: none;
 
     @media (max-width:755px) {
-        display: block;
         width: 40px;
         height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 

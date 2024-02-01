@@ -20,7 +20,7 @@ const Footer=()=>{
                 <div className={styled.people}>
                     <p>People are Saying About DoWhith</p>
                     <p>Everything you need to accept to payment and grow your money of manage anywhere on planet</p>
-                    <Image src={image7} alt="Error"/>
+                    <Image src={image7} alt="Error" className={styled.image}/>
                     <p>I am very helped by this E-wallet application , my days are very easy to use this application and its very helpful in my life , even I can pay a short time 😍</p>
                     <p>_ Aria Zinanrio</p>
                     <div className={styled.images}>
