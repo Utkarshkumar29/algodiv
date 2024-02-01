@@ -16,6 +16,7 @@ const Intro=()=>{
             <div className={styled.boxContainer}>
                 <div className={styled.box1}>
                     <p className={styled.heading}>We&apos;re here to Increase your Productivity</p>
+                    <div className={styled.line}></div>
                     <p className={styled.text}>Let&apos;s make your work more organize and easily using the Taskio Dashboard with many of the latest featuresin managing work every day.</p>
                     <div className={styled.btn}>
                         <span className={styled.free}>Try Free Trail</span>

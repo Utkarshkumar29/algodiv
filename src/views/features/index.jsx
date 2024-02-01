@@ -113,6 +113,7 @@ const Feature=()=>{
                         <button>Go to pro</button>
                     </div>
                     
+                <div className={styled.below}></div>
                 </div>
                 <div className={styled.cardContainer}>
                     <div className={styled.cardInfo}>
